@@ -17,11 +17,11 @@ export const COLORS:{[key:string]:string}={
 };
 
 export const DEFAULT_LABELS:{[key:string]:string}={
-    "technical_skills":"Thechnical skills",
+    "technical_skills":"Technical skills",
     "practical_skills":"Practical skills",
     "languages":"Languages",
     "education_path":"Education path",
-    "proffessional_path":"Proffessional path",
+    "proffessional_path":"Professional path",
 };
 
 export const DEFAULT_APPEARENCE:AppearenceDef={

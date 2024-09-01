@@ -9,7 +9,7 @@ export function RemoveBtn({classes,onClick}:{classes?:string,onClick:(e:React.Mo
 export function EditBtn({classes,onClick}:{classes?:string,onClick:(e:React.MouseEvent)=>any}){
 
     return (
-        <button className={`p-1 bg-warning text-dark rounded-full w-6 h-6 hover:opacity-50 text-xs ${classes}`} onClick={onClick}>I</button>
+        <button className={`p-1 bg-warning text-dark rounded-full w-6 h-6 hover:opacity-50 text-xs ${classes}`} onClick={onClick}><i className="bi bi-pen"></i></button>
     )
 
 }
