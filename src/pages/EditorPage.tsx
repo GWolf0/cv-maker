@@ -38,7 +38,9 @@ function EditorPage({project,selectedVarIdx}:EditorPagePropsDef){
 
     // on preview button
     function onPerviewBtn(){
-        window.open(`${window.location.origin}/?p=preview&varidx=${selectedVarIdx}`,"_blank");
+        const url = new URL(location.href);
+        url.search = `p=preview&varidx=${selectedVarIdx}`;
+        window.open(url.href,"_blank");
     }
 
     return (
